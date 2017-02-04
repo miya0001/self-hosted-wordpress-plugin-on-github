@@ -26,7 +26,7 @@ $ wp cron event run --all
 
 ### 3. Activate the automatic release on Travis CI.
 
-* https://github.com/miya0001/gh-auto-updater-example/blob/master/.travis.yml
+* https://github.com/miya0001/gh-auto-updater-example/blob/master/.travis.yml#L18-L28
 * https://docs.travis-ci.com/user/deployment/releases/
 
 Encrypted key will be saved automatically when you run `travis setup releases`.
