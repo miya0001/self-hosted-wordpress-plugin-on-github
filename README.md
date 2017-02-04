@@ -18,7 +18,9 @@ $ wp cron event run --all
 
 ### 1. Load the `miya/gh-auto-updater` library with composer.
 
-* https://github.com/miya0001/gh-auto-updater-example/blob/master/composer.json#L4
+* https://github.com/miya0001/gh-auto-updater-example/blob/master/composer.json
+
+You need `"minimum-stability": "dev"` for now. :smile:
 
 ### 2. Activate the automatic updater in your plugin.
 
