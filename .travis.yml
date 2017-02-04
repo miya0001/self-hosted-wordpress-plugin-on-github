@@ -16,6 +16,7 @@ before_script:
 script:
 - phpunit
 after_success:
+- composer install
 - zip -r gh-auto-updater-example.zip .
 deploy:
   provider: releases
