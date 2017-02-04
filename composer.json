@@ -1,0 +1,6 @@
+{
+  "minimum-stability": "dev",
+  "require": {
+    "miya/gh-auto-updater": "dev-master"
+  }
+}
