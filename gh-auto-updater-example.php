@@ -12,6 +12,8 @@
  * @package         Gh_Auto_Updater_Example
  */
 
+require_once( dirname( __FILE__ ) . '/vendor/autoload.php' );
+
 add_action( 'init', function(){
 	$gh_user = 'miya0001';
 	$gh_repo = 'gh-auto-updater-example';
