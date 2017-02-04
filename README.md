@@ -20,6 +20,9 @@ $ wp cron event run --all
 
 * https://github.com/miya0001/gh-auto-updater-example/blob/master/composer.json
 
+My composer is [here](https://github.com/miya0001/gh-auto-updater).
+It is in progress, but it looks woking fine as expected.
+
 You need `"minimum-stability": "dev"` for now. :smile:
 
 ### 2. Activate the automatic updater in your plugin.
