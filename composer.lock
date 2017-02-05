@@ -55,12 +55,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/miya0001/gh-auto-updater.git",
-                "reference": "bf8fae89d1880d695a682a27245eba3d1f93967f"
+                "reference": "33e638e452c081dd2bd46f153663e4da508b14ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/miya0001/gh-auto-updater/zipball/bf8fae89d1880d695a682a27245eba3d1f93967f",
-                "reference": "bf8fae89d1880d695a682a27245eba3d1f93967f",
+                "url": "https://api.github.com/repos/miya0001/gh-auto-updater/zipball/33e638e452c081dd2bd46f153663e4da508b14ce",
+                "reference": "33e638e452c081dd2bd46f153663e4da508b14ce",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
                     "email": "miya@wpist.me"
                 }
             ],
-            "time": "2017-02-05 15:48:02"
+            "time": "2017-02-05 16:50:05"
         }
     ],
     "packages-dev": [],
