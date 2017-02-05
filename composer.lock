@@ -8,18 +8,63 @@
     "content-hash": "e17f8727f1039bc7503abd6ce5e50ade",
     "packages": [
         {
+            "name": "erusev/parsedown",
+            "version": "1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "20ff8bbb57205368b4b42d094642a3e52dac85fb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/20ff8bbb57205368b4b42d094642a3e52dac85fb",
+                "reference": "20ff8bbb57205368b4b42d094642a3e52dac85fb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2016-11-02 15:56:58"
+        },
+        {
             "name": "miya/gh-auto-updater",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/miya0001/gh-auto-updater.git",
-                "reference": "aa6b5d8fc9d0ead01636a4b7cae5a01e6d38d352"
+                "reference": "bf8fae89d1880d695a682a27245eba3d1f93967f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/miya0001/gh-auto-updater/zipball/aa6b5d8fc9d0ead01636a4b7cae5a01e6d38d352",
-                "reference": "aa6b5d8fc9d0ead01636a4b7cae5a01e6d38d352",
+                "url": "https://api.github.com/repos/miya0001/gh-auto-updater/zipball/bf8fae89d1880d695a682a27245eba3d1f93967f",
+                "reference": "bf8fae89d1880d695a682a27245eba3d1f93967f",
                 "shasum": ""
+            },
+            "require": {
+                "erusev/parsedown": "^1.6"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.6"
@@ -40,7 +85,7 @@
                     "email": "miya@wpist.me"
                 }
             ],
-            "time": "2017-02-05 12:22:41"
+            "time": "2017-02-05 15:48:02"
         }
     ],
     "packages-dev": [],
