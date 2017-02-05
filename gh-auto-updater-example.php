@@ -7,7 +7,7 @@
  * Author URI:      YOUR SITE HERE
  * Text Domain:     gh-auto-updater-example
  * Domain Path:     /languages
- * Version:         4.0.0
+ * Version:         1.0.0
  *
  * @package         Gh_Auto_Updater_Example
  */
