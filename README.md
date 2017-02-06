@@ -1,6 +1,6 @@
 # Self-Hosted WordPress Plugin on GitHub with Automatic Update
 
-[![Build Status](https://travis-ci.org/miya0001/gh-auto-updater-example.svg?branch=master)](https://travis-ci.org/miya0001/gh-auto-updater-example)
+[![Build Status](https://travis-ci.org/miya0001/self-hosted-wordpress-plugin-on-github.svg?branch=master)](https://travis-ci.org/miya0001/self-hosted-wordpress-plugin-on-github)
 
 This project is an example of WordPress plugin which enables automatic update with GitHub API, using following library.
 https://github.com/miya0001/gh-auto-updater
