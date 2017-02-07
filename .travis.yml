@@ -16,13 +16,7 @@ before_script:
 script:
 - phpunit
 after_success:
-- sed -i -e "s/nightly/${TRAVIS_TAG}/" self-hosted-wordpress-plugin-on-github.php
-- composer install
-- rm -fr bin/ tests/ .editorconfig .gitignore .travis.yml phpunit.xml.dist
-- cd ..
-- zip -r $(basename $TRAVIS_REPO_SLUG).zip $(basename $TRAVIS_REPO_SLUG) -x *.git*
-- mv $(basename $TRAVIS_REPO_SLUG).zip $(basename $TRAVIS_REPO_SLUG)/
-- cd $(basename $TRAVIS_REPO_SLUG)
+- curl https://raw.githubusercontent.com/miya0001/auto-build/master/auto-build.sh | bash
 deploy:
   provider: releases
   api_key:
